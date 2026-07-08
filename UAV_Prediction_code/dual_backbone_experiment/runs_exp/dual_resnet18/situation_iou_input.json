@@ -1,0 +1,47 @@
+{
+  "checkpoint": "C:\\Users\\91395\\Desktop\\Uav_deploy_code\\teacher\\UAV_Prediction\\dual_backbone_experiment\\runs_exp\\dual_resnet18\\best_model.pth",
+  "data_dir": "C:\\Users\\91395\\Desktop\\Uav_deploy_code\\teacher\\UAV_Prediction\\JAM_data",
+  "test_csv": "re_test_paired.csv",
+  "num_samples": 1000,
+  "device": "cuda",
+  "backbone": "resnet18",
+  "use_attention": false,
+  "use_dual": true,
+  "compare_to": "input",
+  "white_thr": 250,
+  "jsr_threshold": 0.02,
+  "norm_mse": 0.005225243504159153,
+  "position_error": {
+    "mean": 23.801119522094726,
+    "std": 30.99002039008255,
+    "min": 0.8440353870391846,
+    "max": 317.030029296875
+  },
+  "map_iou": {
+    "mean": 0.9199932588170595,
+    "std": 0.03621902122039948,
+    "min": 0.7091479604143022,
+    "max": 0.9668130990411474
+  },
+  "map_dice": {
+    "mean": 0.95794270641109,
+    "std": 0.02052695049593983,
+    "min": 0.8298262957203574,
+    "max": 0.9831265609452003
+  },
+  "map_precision": {
+    "mean": 0.9771967883232678,
+    "std": 0.0369075648013202,
+    "min": 0.7551551688697984,
+    "max": 0.9999999999996911
+  },
+  "map_recall": {
+    "mean": 0.9408273984359287,
+    "std": 0.027085279430539986,
+    "min": 0.7143204473611544,
+    "max": 0.9863126479360984
+  },
+  "success_rate_iou_0.50": 1.0,
+  "success_rate_iou_0.70": 1.0,
+  "success_rate_iou_0.90": 0.824
+}

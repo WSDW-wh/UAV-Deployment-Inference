@@ -1,0 +1,193 @@
+{
+  "results": [
+    {
+      "checkpoint": "C:\\Users\\91395\\Desktop\\Uav_deploy_code\\teacher\\UAV_Prediction\\dual_backbone_experiment\\runs_exp\\dual_resnet18\\best_model.pth",
+      "data_dir": "C:\\Users\\91395\\Desktop\\Uav_deploy_code\\teacher\\UAV_Prediction\\JAM_data",
+      "test_csv": "re_test_paired.csv",
+      "num_samples": 1000,
+      "device": "cuda",
+      "backbone": "resnet18",
+      "use_attention": false,
+      "use_dual": true,
+      "compare_to": "input",
+      "white_thr": 250,
+      "jsr_threshold": 0.02,
+      "norm_mse": 0.005225243504159153,
+      "position_error": {
+        "mean": 23.801119522094726,
+        "std": 30.99002039008255,
+        "min": 0.8440353870391846,
+        "max": 317.030029296875
+      },
+      "map_iou": {
+        "mean": 0.9199932588170595,
+        "std": 0.03621902122039948,
+        "min": 0.7091479604143022,
+        "max": 0.9668130990411474
+      },
+      "map_dice": {
+        "mean": 0.95794270641109,
+        "std": 0.02052695049593983,
+        "min": 0.8298262957203574,
+        "max": 0.9831265609452003
+      },
+      "map_precision": {
+        "mean": 0.9771967883232678,
+        "std": 0.0369075648013202,
+        "min": 0.7551551688697984,
+        "max": 0.9999999999996911
+      },
+      "map_recall": {
+        "mean": 0.9408273984359287,
+        "std": 0.027085279430539986,
+        "min": 0.7143204473611544,
+        "max": 0.9863126479360984
+      },
+      "success_rate_iou_0.50": 1.0,
+      "success_rate_iou_0.70": 1.0,
+      "success_rate_iou_0.90": 0.824
+    },
+    {
+      "checkpoint": "C:\\Users\\91395\\Desktop\\Uav_deploy_code\\teacher\\UAV_Prediction\\dual_backbone_experiment\\runs_exp\\dual_resnet18_attn\\best_model.pth",
+      "data_dir": "C:\\Users\\91395\\Desktop\\Uav_deploy_code\\teacher\\UAV_Prediction\\JAM_data",
+      "test_csv": "re_test_paired.csv",
+      "num_samples": 1000,
+      "device": "cuda",
+      "backbone": "resnet18",
+      "use_attention": true,
+      "use_dual": true,
+      "compare_to": "input",
+      "white_thr": 250,
+      "jsr_threshold": 0.02,
+      "norm_mse": 0.003855463137384504,
+      "position_error": {
+        "mean": 15.373837596297264,
+        "std": 30.45556610612459,
+        "min": 0.5590300559997559,
+        "max": 356.82025146484375
+      },
+      "map_iou": {
+        "mean": 0.9318487059285442,
+        "std": 0.026376887093503623,
+        "min": 0.7451608311978756,
+        "max": 0.9712895033856619
+      },
+      "map_dice": {
+        "mean": 0.9645210260756669,
+        "std": 0.01474746823578707,
+        "min": 0.8539738204946972,
+        "max": 0.9854356772229406
+      },
+      "map_precision": {
+        "mean": 0.9885415061203275,
+        "std": 0.026755725193853358,
+        "min": 0.755701501154189,
+        "max": 0.999999999999696
+      },
+      "map_recall": {
+        "mean": 0.9423684313612114,
+        "std": 0.01979655517324601,
+        "min": 0.8155328398533479,
+        "max": 0.9846301633037267
+      },
+      "success_rate_iou_0.50": 1.0,
+      "success_rate_iou_0.70": 1.0,
+      "success_rate_iou_0.90": 0.931
+    },
+    {
+      "checkpoint": "C:\\Users\\91395\\Desktop\\Uav_deploy_code\\teacher\\UAV_Prediction\\dual_backbone_experiment\\runs_exp\\single_resnet18\\best_model.pth",
+      "data_dir": "C:\\Users\\91395\\Desktop\\Uav_deploy_code\\teacher\\UAV_Prediction\\JAM_data",
+      "test_csv": "re_test_paired.csv",
+      "num_samples": 1000,
+      "device": "cuda",
+      "backbone": "resnet18",
+      "use_attention": false,
+      "use_dual": false,
+      "compare_to": "input",
+      "white_thr": 250,
+      "jsr_threshold": 0.02,
+      "norm_mse": 0.0076391537487506865,
+      "position_error": {
+        "mean": 30.652664341568947,
+        "std": 35.691198899101956,
+        "min": 1.672847867012024,
+        "max": 306.11090087890625
+      },
+      "map_iou": {
+        "mean": 0.9191286355419811,
+        "std": 0.03483055850233781,
+        "min": 0.7261405348710499,
+        "max": 0.9656127550324513
+      },
+      "map_dice": {
+        "mean": 0.9575025678839998,
+        "std": 0.01972798754088777,
+        "min": 0.8413457887138902,
+        "max": 0.9825055851517502
+      },
+      "map_precision": {
+        "mean": 0.9795258923080727,
+        "std": 0.032843485343989585,
+        "min": 0.7363733049715924,
+        "max": 0.999999999999695
+      },
+      "map_recall": {
+        "mean": 0.9375963002042368,
+        "std": 0.027258008361318736,
+        "min": 0.769827282339596,
+        "max": 0.9830300146699246
+      },
+      "success_rate_iou_0.50": 1.0,
+      "success_rate_iou_0.70": 1.0,
+      "success_rate_iou_0.90": 0.816
+    },
+    {
+      "checkpoint": "C:\\Users\\91395\\Desktop\\Uav_deploy_code\\teacher\\UAV_Prediction\\dual_backbone_experiment\\runs_exp\\single_resnet18_attn\\best_model.pth",
+      "data_dir": "C:\\Users\\91395\\Desktop\\Uav_deploy_code\\teacher\\UAV_Prediction\\JAM_data",
+      "test_csv": "re_test_paired.csv",
+      "num_samples": 1000,
+      "device": "cuda",
+      "backbone": "resnet18",
+      "use_attention": true,
+      "use_dual": false,
+      "compare_to": "input",
+      "white_thr": 250,
+      "jsr_threshold": 0.02,
+      "norm_mse": 0.005211447391659021,
+      "position_error": {
+        "mean": 22.614258457422256,
+        "std": 31.66737263273091,
+        "min": 1.5653560161590576,
+        "max": 304.69293212890625
+      },
+      "map_iou": {
+        "mean": 0.9255760835883257,
+        "std": 0.02886430699214043,
+        "min": 0.7252168274290952,
+        "max": 0.96646277889728
+      },
+      "map_dice": {
+        "mean": 0.961107770826278,
+        "std": 0.016157436575504412,
+        "min": 0.8407254275508171,
+        "max": 0.9829454076310937
+      },
+      "map_precision": {
+        "mean": 0.9843312189456933,
+        "std": 0.027625741158273893,
+        "min": 0.7710953011244448,
+        "max": 0.9999999999996944
+      },
+      "map_recall": {
+        "mean": 0.9397717803481899,
+        "std": 0.02276359024634708,
+        "min": 0.7741745975786932,
+        "max": 0.9832693783568816
+      },
+      "success_rate_iou_0.50": 1.0,
+      "success_rate_iou_0.70": 1.0,
+      "success_rate_iou_0.90": 0.877
+    }
+  ],
+  "failures": []
+}

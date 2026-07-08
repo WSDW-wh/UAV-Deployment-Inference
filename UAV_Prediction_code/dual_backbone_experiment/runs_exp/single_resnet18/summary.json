@@ -1,0 +1,8 @@
+{
+  "mode": "single",
+  "best_epoch": 80,
+  "best_norm_mse": 0.007604497294532993,
+  "best_position_error": 30.652664215087892,
+  "lr": 0.0003,
+  "weight_decay": 0.0
+}

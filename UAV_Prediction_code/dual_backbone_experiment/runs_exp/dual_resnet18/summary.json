@@ -1,0 +1,9 @@
+{
+  "mode": "dual",
+  "best_epoch": 75,
+  "best_norm_mse": 0.0051917615623789885,
+  "best_position_error": 23.801119621276854,
+  "lambda_feat": 10.0,
+  "lr": 0.0003,
+  "weight_decay": 0.0
+}
